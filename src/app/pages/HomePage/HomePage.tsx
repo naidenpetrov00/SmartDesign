@@ -7,8 +7,8 @@ import { PhraseRotator } from '../../../components/ui/Text/PhraseRotator';
 import { OurWorkHomePageImages } from '../../../components/Images/OurWorkHomePageImages';
 
 import { homePageStyles } from './HomePage.styles';
-import homePhoto from '../../../assets/images/home/homePageBuildings.jpg';
-import homePhotoPlaceHolder from '../../../assets/images/home/homePageBuildingsPlaceHolder10.jpg';
+import homePhoto from '../../../assets/images/home/main.png';
+// import homePhotoPlaceHolder from '../../../assets/images/home/homePageBuildingsPlaceHolder10.jpg';
 import { LanguageSelector } from '../../../components/ui/Buttons/LanguageSelector';
 import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
@@ -33,7 +33,7 @@ export const HomePage = () => {
             title="HomePageBuilings"
             src={homePhoto}
             loading="eager"
-            placeholderSrc={homePhotoPlaceHolder}
+            // placeholderSrc={homePhotoPlaceHolder}
             alt="Beautiful city skyline with modern buildings in the background"
             effect="opacity"
             width="100%"

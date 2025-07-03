@@ -27,7 +27,7 @@ export const PhraseRotator = () => {
       aria-labelledby="phrase-rotator"
     >
       <span id="phrase-rotator">
-        SmartProjects – {phrases[currentPhraseIndex]}
+        {phrases[currentPhraseIndex]}
       </span>
     </Typography>
   );
