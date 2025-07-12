@@ -8,7 +8,7 @@ import Step from "@mui/material/Step";
 import Stepper from "@mui/material/Stepper";
 import { styled } from "@mui/material/styles";
 import StepLabel from "@mui/material/StepLabel";
-import StepIconProps from "@mui/material/StepIcon";
+import { type StepIconProps } from "@mui/material/StepIcon";
 import PriceChangeIcon from "@mui/icons-material/PriceChange";
 import ConstructionIcon from "@mui/icons-material/Construction";
 import TroubleshootIcon from "@mui/icons-material/Troubleshoot";
