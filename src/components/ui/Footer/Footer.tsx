@@ -16,6 +16,7 @@ import SvgIcon from "../../../assets/images/logo/SvgIcon";
 import { usePaths } from "../../../hooks/usePaths";
 import { useTranslation } from "react-i18next";
 import { contactsCardStyles } from "../Card/ContactsCard.styles";
+import { SvgIconColor } from "../../../types/enums";
 
 export const Footer = () => {
   const theme = useTheme();
@@ -29,7 +30,7 @@ export const Footer = () => {
         <Box sx={footerStyles.boxContainer} color="primary.contrastText">
           <Box sx={footerStyles.boxContent}>
             <Box sx={{ width: { xs: "100%", sm: "60%" } }}>
-              <SvgIcon width="200" />
+              <SvgIcon width="160" color={SvgIconColor.white} />
               <Typography
                 variant="body2"
                 gutterBottom

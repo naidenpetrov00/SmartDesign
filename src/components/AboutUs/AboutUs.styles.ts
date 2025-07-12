@@ -1,4 +1,4 @@
-import type { SxProps, Theme } from '@mui/material';
+import type { SxProps, Theme } from "@mui/material";
 
 interface AboutUsStyles {
   container: SxProps;
@@ -9,7 +9,7 @@ interface AboutUsStyles {
 }
 
 export const aboutUsStyles: AboutUsStyles = {
-  divider: { mt: 2, width: '100%' },
+  divider: { mt: 2, width: "100%" },
   container: { pl: 4, pr: 4 },
   contactsContainer: null,
   aboutUsTextcontainer: (theme) => ({
@@ -17,8 +17,8 @@ export const aboutUsStyles: AboutUsStyles = {
     mr: { md: 8 },
     p: 1.5,
     background: theme.palette.primary.main,
-    borderRadius: '16px',
-    boxShadow: '0px 0px 15px rgba(0, 0, 0, 0.8)',
+    borderRadius: "16px",
+    boxShadow: "0px 0px 15px rgba(0, 0, 0, 0.8)",
   }),
-  aboutUsText: { textAlign: 'justify' },
+  aboutUsText: { textAlign: "justify", whiteSpace: "pre-line" },
 };

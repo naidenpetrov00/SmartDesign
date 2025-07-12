@@ -1,8 +1,11 @@
+import type { SvgIconColor } from "../../../types/enums";
+
 interface SvgIconProps {
   width: string;
+  color: SvgIconColor;
 }
 
-const SvgIcon = ({ width }: SvgIconProps) => (
+const SvgIcon = ({ width, color }: SvgIconProps) => (
   <svg
     version="1.0"
     xmlns="http://www.w3.org/2000/svg"
@@ -14,7 +17,7 @@ const SvgIcon = ({ width }: SvgIconProps) => (
     {" "}
     <g
       transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)"
-      fill="#000000"
+      fill={color}
       stroke="none"
     >
       {" "}

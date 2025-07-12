@@ -6,8 +6,8 @@ export const useSteps = () => {
 
   const steps = useMemo(() => {
     return [
+      t('steps.sendInfo'),
       t('steps.contactUs'),
-      t('steps.inspection'),
       t('steps.offer'),
       t('steps.building'),
     ];

@@ -1,43 +1,51 @@
-import type { SxProps, Theme } from '@mui/material';
+import type { SxProps, Theme } from "@mui/material";
 
 interface HeroStyles {
   container: SxProps<Theme>;
   stack: SxProps<Theme>;
   titleWhite: (isSmallScreen: boolean) => SxProps<Theme>;
   titleBlack: (theme: Theme, isSmallScreen: boolean) => SxProps<Theme>;
+  descriptionContainer: (theme: Theme) => SxProps<Theme>;
   description: SxProps<Theme>;
 }
 
 export const heroStyles: HeroStyles = {
   container: {
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
     pt: { xs: 4, sm: 8 },
     pb: { xs: 4, sm: 8 },
   },
   stack: {
-    alignItems: 'center',
-    width: { xs: '100%', sm: '70%' },
+    alignItems: "center",
+    width: { xs: "100%", sm: "70%" },
   },
   titleWhite: (isSmallScreen) => ({
-    display: 'flex',
-    flexDirection: { xs: 'column', sm: 'row' },
-    alignItems: 'center',
-    fontSize: { xs: '32px', md: '64px' },
-    fontWeight: isSmallScreen ? 'bold' : '',
+    display: "flex",
+    flexDirection: { xs: "column", sm: "row" },
+    alignItems: "center",
+    fontSize: { xs: "32px", md: "64px" },
+    fontWeight: isSmallScreen ? "bold" : "",
   }),
   titleBlack: (theme, isSmallScreen) => ({
-    color: 'primary.main',
-    ...theme.applyStyles('dark', {
-      color: 'primary.light',
+    color: "primary.main",
+    ...theme.applyStyles("dark", {
+      color: "primary.light",
     }),
-    fontSize: { xs: '32px', md: '64px' },
-    fontWeight: isSmallScreen ? 'bold' : '',
+    fontSize: { xs: "32px", md: "64px" },
+    fontWeight: isSmallScreen ? "bold" : "",
+  }),
+  descriptionContainer: (theme) => ({
+    backgroundColor: theme.palette.background.paper,
+    borderRadius: 4,
+    padding: 1.5,
+    boxShadow: "0px 0px 15px rgba(0, 0, 0, 0.8)",
   }),
   description: {
-    textAlign: 'justify',
-    color: 'text.secondary',
-    width: { sm: '100%', md: '100%' },
+    textAlign: "justify",
+    whiteSpace: "pre-line",
+    // color: "text.secondary",
+    width: { sm: "100%", md: "100%" },
   },
 };

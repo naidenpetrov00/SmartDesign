@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 import {
   Container,
@@ -7,14 +7,15 @@ import {
   Divider,
   useTheme,
   useMediaQuery,
-} from '@mui/material';
+  Box,
+} from "@mui/material";
 
-import { heroStyles } from './Hero.styles';
+import { heroStyles } from "./Hero.styles";
 
 interface HeroProps {
-  titleWhite: String;
-  titleBlack: String;
-  description?: String;
+  titleWhite: string;
+  titleBlack: string;
+  description?: string;
   divider?: boolean;
 }
 
@@ -25,14 +26,14 @@ export const Hero = ({
   divider = true,
 }: HeroProps) => {
   const theme = useTheme();
-  const isSmallScreen = useMediaQuery(theme.breakpoints.down('sm'));
+  const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
   return (
     <React.Fragment>
       <Container sx={heroStyles.container}>
         <Stack spacing={2} useFlexGap sx={heroStyles.stack}>
           <Stack
-            direction={isSmallScreen ? 'column' : 'row'}
-            sx={{ textAlign: 'center' }}
+            direction={isSmallScreen ? "column" : "row"}
+            sx={{ textAlign: "center" }}
           >
             <Typography
               variant="h2"
@@ -49,12 +50,14 @@ export const Hero = ({
               {titleBlack}
             </Typography>
           </Stack>
-          <Typography
-            sx={heroStyles.description}
-            aria-describedby="hero-description"
-          >
-            {description}
-          </Typography>
+          <Box sx={heroStyles.descriptionContainer(theme)}>
+            <Typography
+              sx={heroStyles.description}
+              aria-describedby="hero-description"
+            >
+              {description}
+            </Typography>
+          </Box>
         </Stack>
       </Container>
       {divider && <Divider aria-hidden="true" />}
