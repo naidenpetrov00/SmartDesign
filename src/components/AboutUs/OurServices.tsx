@@ -14,7 +14,8 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Hero } from '../ui/Heros/Hero';
 import { AboutUsText } from './AboutUsText';
 
-import { SvgIconWhiteFont } from '../../assets/images/logo/SvgIconWhiteFont';
+import SvgIcon from "../../assets/images/logo/SvgIcon";
+import { SvgIconColor } from "../../types/enums";
 
 import { ourServicesStyles } from './OurServices.styles';
 import { useTranslation } from 'react-i18next';
@@ -29,7 +30,7 @@ export const OurServices = () => {
   return (
     <React.Fragment>
       <Box sx={ourServicesStyles.logoContainer}>
-        <SvgIconWhiteFont width={isSmallScreen ? '300' : '600'} />
+        <SvgIcon width={isSmallScreen ? '200' : '300'} color={SvgIconColor.black}/>
         <AboutUsText />
       </Box>
       <Hero
