@@ -466,6 +466,16 @@
     "@eslint/core" "^0.14.0"
     levn "^0.4.1"
 
+"@fontsource/comforter@^5.2.6":
+  version "5.2.6"
+  resolved "https://registry.yarnpkg.com/@fontsource/comforter/-/comforter-5.2.6.tgz#1c158151d8232dc09e9215ea0e43f6cbd1f4ee27"
+  integrity sha512-LpTIvcWu5jmfhO66bs0neNygsgRBTHkjpdk9jUo66YmgN5yZ7VmvH/hBgD/KrUqwdyNJdF4jOglKzPBR5+3fWQ==
+
+"@fontsource/moderustic@^5.2.6":
+  version "5.2.6"
+  resolved "https://registry.yarnpkg.com/@fontsource/moderustic/-/moderustic-5.2.6.tgz#1466bee61ef2131ec690901610062de9ce5bd053"
+  integrity sha512-yDosxV6GseHdano58q0Ez+Vxp7BMaOP+w1DqxdS0JOFpfak3WHye2fhtpbgQg2cQXBoi3IycPegT71LA79dHWg==
+
 "@humanfs/core@^0.19.1":
   version "0.19.1"
   resolved "https://registry.yarnpkg.com/@humanfs/core/-/core-0.19.1.tgz#17c55ca7d426733fe3c561906b8173c336b40a77"

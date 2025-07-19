@@ -39,25 +39,29 @@ export const Hero = ({
               variant="h2"
               sx={heroStyles.titleWhite(isSmallScreen)}
               aria-label="Title in white"
+              fontFamily={'Comforter'}
             >
               {titleWhite}&nbsp;
             </Typography>
             <Typography
               variant="h2"
               sx={heroStyles.titleBlack(theme, isSmallScreen)}
+              fontFamily={'Comforter'}
               aria-label="Title in black"
             >
               {titleBlack}
             </Typography>
           </Stack>
-          <Box sx={heroStyles.descriptionContainer(theme)}>
-            <Typography
-              sx={heroStyles.description}
-              aria-describedby="hero-description"
-            >
-              {description}
-            </Typography>
-          </Box>
+          {description && (
+            <Box sx={heroStyles.descriptionContainer(theme)}>
+              <Typography
+                sx={heroStyles.description}
+                aria-describedby="hero-description"
+              >
+                {description}
+              </Typography>
+            </Box>
+          )}
         </Stack>
       </Container>
       {divider && <Divider aria-hidden="true" />}

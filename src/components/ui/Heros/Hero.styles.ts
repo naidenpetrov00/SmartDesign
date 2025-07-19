@@ -25,7 +25,7 @@ export const heroStyles: HeroStyles = {
     display: "flex",
     flexDirection: { xs: "column", sm: "row" },
     alignItems: "center",
-    fontSize: { xs: "32px", md: "64px" },
+    fontSize: { xs: "62px", md: "96px" },
     fontWeight: isSmallScreen ? "bold" : "",
   }),
   titleBlack: (theme, isSmallScreen) => ({
@@ -33,7 +33,7 @@ export const heroStyles: HeroStyles = {
     ...theme.applyStyles("dark", {
       color: "primary.light",
     }),
-    fontSize: { xs: "32px", md: "64px" },
+    fontSize: { xs: "62px", md: "96px" },
     fontWeight: isSmallScreen ? "bold" : "",
   }),
   descriptionContainer: (theme) => ({

@@ -1,6 +1,7 @@
 import { darken, type SxProps, type Theme } from '@mui/material';
 
 interface OurServicesStyles {
+  detailText: SxProps<Theme> | undefined;
   container: SxProps;
   logoContainer: SxProps;
   accordion: (theme: Theme) => SxProps;
@@ -39,4 +40,7 @@ export const ourServicesStyles: OurServicesStyles = {
     flexDirection: 'column',
     gap: 8,
   },
+  detailText: {
+    whiteSpace: 'pre-line',
+  }
 };

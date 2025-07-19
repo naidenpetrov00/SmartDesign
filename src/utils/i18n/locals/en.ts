@@ -21,7 +21,7 @@ export const en = {
     building: "We start building your dream.",
   },
   titles: {
-    ourServices: { white: "Initial", black: "consultation" },
+    ourServices: { white: "Our", black: "Services" },
     contactUs: { white: "Contact", black: "Us" },
     ourWork: { white: "Our Latest", black: "Projects" },
   },
@@ -52,62 +52,40 @@ export const en = {
   },
   pages: { contacts: { getInTouch: "Get in Touch" } },
   typesOfWork: {
-    wetProcesses: {
-      title: "Wet Processes",
+    conceptLight: {
+      title: "Concept Light",
       details: [
-        "• Laying screeds",
-        "• Hand-applied plasters",
-        "• Puttying",
-        "• Priming and painting",
-        "• Specialized plasters – various decorative plasters, lime-based finishes, facade plasters",
+        `This package is suitable for clients looking for a professional foundation for their interior project – a clear concept,
+functional layout, and visualizations to serve as a starting point for further development.
+
+What the service includes:
+  - Site visit and architectural surveying of the property for precise measurements and analysis.
+  - Zoning and alternative furniture layout options (up to 3 variants). Alternative design concepts – style, color palette, materials, and furniture (up to 2 variants). Detailed 3D model and photorealistic visualization of the final chosen variant.
+
+Price:
+Up to 60 sq.m: 40 BGN/sq.m.
+
+For larger properties – negotiable individually.
+`,
       ],
     },
-    dryConstruction: {
-      title: "Dry Construction",
+    conceptDetail: {
+      title: "Concept Detail",
       details: [
-        "• Installation of structures and partitions made of gypsum board",
-        "• Installation of suspended ceilings",
-        "• Installation of external and internal thermal insulation",
-      ],
-    },
-    flooringAndCladding: {
-      title: "Flooring and Cladding",
-      details: [
-        "• Laying ceramic and porcelain tile floors and vertical cladding",
-        "• Laying floors and cladding from artificial and natural stone",
-        "• Installing decorative gypsum and reinforced concrete cladding",
-        "• Installing laminate and vinyl flooring",
-      ],
-    },
-    roofSystems: {
-      title: "Roof Systems",
-      details: [
-        "• Repairing existing roof systems",
-        "• Replacing coverings such as tiles, sheet metal, etc.",
-        "• Installing thermal insulation layers",
-        "• Installing load-bearing structures",
-        "• Replacing and repairing drainage systems – gutters and downspouts",
-        "• Building complete roof systems",
-      ],
-    },
-    installations: {
-      title: "Installations",
-      details: [
-        "• Complete plumbing installations for private properties – apartments, offices, houses",
-        "• Complete electrical installations for private properties – apartments, offices, houses",
-      ],
-    },
-    design: {
-      title: "Design",
-      details: [
-        "• Consultations and development of conceptual, technical, and working structural designs",
-        "• Consultations and development of conceptual and technical interior designs and 3D visualizations",
-      ],
-    },
-    cleaning: {
-      title: "Cleaning",
-      details: [
-        "• Specialized cleaning services upon completion of construction and after repairs of private properties",
+        `This package is suitable for you if you need a more detailed interior design project with full technical documentation and clear execution guidelines.
+
+What the service includes:
+- Site visit and architectural surveying for precise measurements and analysis.
+- Zoning and alternative furniture layout options (2D drawings, up to 3 variants). 
+- Alternative design concepts – style, color palette, materials, and furniture (2 variants). 2D detailed drawings: wall elevations,
+ floor plans, ceiling (soffit) plans, wall finishes, lighting, electrical outlets and switches, plumbing installations, and custom-made furniture.
+- Detailed 3D model and photorealistic visualization of the final chosen concept. A list of specific furniture and items from the market recommended for purchase.
+
+Price:
+Up to 60 sq.m: 50 BGN/sq.m
+
+For larger spaces – individually negotiated.
+`,
       ],
     },
   },

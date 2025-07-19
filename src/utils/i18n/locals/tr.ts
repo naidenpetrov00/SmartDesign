@@ -20,7 +20,7 @@ export const tr = {
     building: "Hayalinizi inşa etmeye başlıyoruz.",
   },
   titles: {
-    ourServices: { white: "İlk", black: "danışmanlık" },
+    ourServices: { white: "Hizmet", black: "paketler" },
     contactUs: { white: "Bize", black: "Ulaşın" },
     ourWork: { white: "Son", black: "Projelerimiz" },
   },
@@ -51,62 +51,40 @@ export const tr = {
   },
   pages: { contacts: { getInTouch: "İletişime Geçin" } },
   typesOfWork: {
-    wetProcesses: {
-      title: "Mikro İşlemler",
+    conceptLight: {
+      title: "Concept Light",
       details: [
-        "• Şap döşemeleri",
-        "• El ile sıva uygulamaları",
-        "• Sıva yapma",
-        "• Astar ve boyama",
-        "• Özel sıvalar – çeşitli dekoratif sıvalar, kireç bazlı kaplamalar, dış cephe sıvaları",
+        `Bu paket, iç mekan projesi için net bir konsept,
+fonksiyonel yerleşim ve sonraki aşamalar için temel oluşturacak görselleştirmeler arayan müşteriler için uygundur.
+
+Hizmet neleri içerir:
+  - Doğru ölçüm ve analiz için yerinde keşif ve mimari ölçüm.
+  - Mobilyaların alanlara göre yerleşimi ve alternatif düzen önerileri (en fazla 3 seçenek). Alternatif tasarım konseptleri – stil, renk paleti, malzemeler ve mobilya önerileri (en fazla 2 seçenek). Seçilen nihai tasarımın detaylı 3D modeli ve fotogerçekçi görselleştirmesi.
+
+Fiyat:
+60 m²’ye kadar: 40 BGN/m²
+
+Daha büyük projeler için – bireysel anlaşmaya göre.
+`,
       ],
     },
-    dryConstruction: {
-      title: "Kuru İnşaat",
+    conceptDetail: {
+      title: "Concept Detail",
       details: [
-        "• Alçıpan yapılar ve duvarların montajı",
-        "• Askılı tavanların montajı",
-        "• Dış ve iç ısıl yalıtım montajı",
-      ],
-    },
-    flooringAndCladding: {
-      title: "Zemin ve Kaplama",
-      details: [
-        "• Seramik ve porselen fayans döşemeleri ve dikey kaplamalar",
-        "• Yapay ve doğal taşlardan döşeme ve kaplama",
-        "• Dekoratif alçı ve donatılı beton kaplama montajı",
-        "• Laminat parke ve vinil zemin döşemeleri",
-      ],
-    },
-    roofSystems: {
-      title: "Çatı Sistemleri",
-      details: [
-        "• Mevcut çatı sistemlerinin onarımı",
-        "• Çatı kaplama malzemelerinin değiştirilmesi (kiremit, sac, vb.)",
-        "• Isı yalıtım katmanlarının montajı",
-        "• Yük taşıyan yapıların montajı",
-        "• Drenaj sistemlerinin değiştirilmesi ve onarımı – oluklar ve yağmur olukları",
-        "• Tam çatı sistemlerinin kurulumu",
-      ],
-    },
-    installations: {
-      title: "Kurulumlar",
-      details: [
-        "• Özel mülkler için tam sıhhi tesisat kurulumu – daireler, ofisler, evler",
-        "• Özel mülkler için tam elektrik tesisatı kurulumu – daireler, ofisler, evler",
-      ],
-    },
-    design: {
-      title: "Tasarım",
-      details: [
-        "• Kavramsal, teknik ve yapısal projelerin danışmanlık ve geliştirilmesi",
-        "• İç mekan tasarımları ve 3D görselleştirmeler için danışmanlık ve geliştirilmesi",
-      ],
-    },
-    cleaning: {
-      title: "Temizlik",
-      details: [
-        "• İnşaat işleri ve özel mülklerin onarımı sonrası özel temizlik hizmetleri",
+        `Daha ayrıntılı bir iç mekan projesine, tam teknik dokümantasyona ve net uygulama yönergelerine ihtiyacınız varsa bu paket sizin için uygundur.
+
+Hizmet neleri içerir:
+- Doğru ölçüm ve analiz için yerinde keşif ve mimari ölçüm.
+- Mobilya yerleşimi için zonlama ve alternatif düzenler (2D çizimler, en fazla 3 seçenek).
+- Alternatif tasarım konseptleri – stil, renk paleti, malzeme ve mobilyalar (2 seçenek). 2D detaylı çizimler: duvar görünümleri,
+ zemin planları, tavan (sofit) planları, duvar kaplamaları, aydınlatma, prizler ve anahtarlar, sıhhi tesisat, özel tasarım mobilyalar.
+- Seçilen son tasarım için detaylı 3D model ve fotogerçekçi görselleştirme. Satın almanız için önerilen mobilya ve ürün listesi.
+
+Fiyat:
+60 m²’ye kadar: 50 BGN/m²
+
+Daha büyük alanlar için – bireysel anlaşmaya göre.
+`,
       ],
     },
   },
