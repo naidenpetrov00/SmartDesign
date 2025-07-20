@@ -8,7 +8,8 @@ import { createTheme, type Theme } from "@mui/material";
 // const minBeige = '#C9AD93';
 const colorPallete = {
   black: "#181C14",
-  grey: "#3C3D37",
+  lightGrey: "#dcdbd9",
+  grey: "#545454",
   green: "#697565",
   white: "#ECDFCC",
 };
@@ -20,8 +21,8 @@ export const useCustomTheme = (): Theme => {
         fontFamily: "Moderustic",
       },
       palette: {
-        primary: { main: colorPallete.black },
-        secondary: { main: colorPallete.green },
+        primary: { main: colorPallete.grey },
+        secondary: { main: colorPallete.lightGrey },
         background: { paper: colorPallete.grey },
         text: { primary: colorPallete.white, secondary: colorPallete.black },
       },

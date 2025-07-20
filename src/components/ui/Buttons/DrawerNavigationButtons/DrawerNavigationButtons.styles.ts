@@ -20,7 +20,7 @@ export const drawerNavigationStyles: DrawerNavigationStyles = {
     },
   },
   tab: {
-    color: 'secondary.light',
+    color: 'primary.main',
     '&.Mui-selected': {
       color: '#fff',
     },

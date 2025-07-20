@@ -20,19 +20,19 @@ export const tr = {
     building: "Hayalinizi inşa etmeye başlıyoruz.",
   },
   titles: {
-    ourServices: { white: "Hizmet", black: "paketler" },
+    ourServices: { white: "Hizmet", black: "Paketler" },
     contactUs: { white: "Bize", black: "Ulaşın" },
     ourWork: { white: "Son", black: "Projelerimiz" },
   },
   descriptions: {
     contactUs:
-      "Sorularınız mı var veya apartmanınızı dönüştürmeye başlamak için hazır mısınız? Ekibimiz, uzman tavsiyesi sunmak, projenizi tartışmak ve vizyonunuzu gerçeğe dönüştürmek için burada.",
+      "Her mekan bir potansiyel taşır. Eğer stil, işlevsellik ve kişilik arıyorsanız – bunu birlikte başaralım. Benimle iletişime geçin ve dönüşüme bugün başlayın.",
     ourWork:
       '"Smart Projects" olarak son projelerimizi keşfedin. Kaliteli apartman yenilemeleri sunmakla gurur duyuyoruz. Deneyimimiz, küçük onarımlardan her müşterinin benzersiz ihtiyaçlarına göre uyarlanmış tam dönüşümlere kadar geniş bir yelpazeyi kapsar.',
   },
   aboutUsText: `Kariyer gelişimim doğrusal bir çizgide ilerlemedi. 10 yıl Almanya’da yaşadım ve burada Berlin Teknik Üniversitesi’nde “Altyapı Politikası ve Yönetimi” bölümünde yüksek öğrenimimi tamamladım. Almanca ve İngilizce dillerini hem yazılı hem sözlü olarak akıcı bir şekilde kullanabiliyorum.
-  \nZamanla kurumsal dünya bana tatminden çok olumsuzluk getirmeye başladı ve bu durum beni iç mimarlığa yönelmeye itti. Lisanslı bir eğitim programını tamamlayarak bu alanda profesyonel bir yeterlilik kazandım ve bugün ağırlıklı olarak konut iç mekan tasarımı üzerine uzmanlaşıyorum.
   \nBulgaristan’a döndükten sonra, outsourcing sektörünün hakim olduğu iş piyasasında kendime yer bulma zorluğuyla karşılaştım. Paylaşılan hizmet merkezlerinde insan kaynakları alanında değerli deneyimler edindim; buradaki ana odağım iş süreçlerinin transferi ve uygulanması ile sürdürülebilir bir “know-how” geliştirmekti.
+  \nZamanla kurumsal dünya bana tatminden çok olumsuzluk getirmeye başladı ve bu durum beni iç mimarlığa yönelmeye itti. Lisanslı bir eğitim programını tamamlayarak bu alanda profesyonel bir yeterlilik kazandım ve bugün ağırlıklı olarak konut iç mekan tasarımı üzerine uzmanlaşıyorum.
   \nTasarım konsepti oluşturma süreci çoğu zaman karmaşık bir matematik denklemini çözmek gibidir — bazen çelişen gereksinimleri bir araya getirmek gerekir: gerçek ihtiyaçlar, işlevsellik, bireysellik, estetik, bütçe ve teslim tarihleri. Misyonum, bunlar arasında en iyi dengeyi bulmak ve sadece güzel görünen değil, aynı zamanda sakinlerinin yaşamına uyum içinde çalışan alanlar yaratmaktır.`,
   navBar: {
     homeNavBarLink: "ANASAYFA",
