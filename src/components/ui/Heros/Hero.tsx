@@ -1,26 +1,25 @@
-import React from "react";
-
 import {
+  Box,
   Container,
+  Divider,
   Stack,
   Typography,
-  Divider,
-  useTheme,
   useMediaQuery,
-  Box,
+  useTheme,
 } from "@mui/material";
 
+import React from "react";
 import { heroStyles } from "./Hero.styles";
 
 interface HeroProps {
-  titleWhite: string;
+  // titleWhite: string;
   titleBlack: string;
   description?: string;
   divider?: boolean;
 }
 
 export const Hero = ({
-  titleWhite,
+  // titleWhite,
   titleBlack,
   description,
   divider = true,
@@ -35,18 +34,18 @@ export const Hero = ({
             direction={isSmallScreen ? "column" : "row"}
             sx={{ textAlign: "center" }}
           >
-            <Typography
+            {/* <Typography
               variant="h2"
               sx={heroStyles.titleWhite(isSmallScreen)}
               aria-label="Title in white"
               fontFamily={'Comforter'}
             >
               {titleWhite}&nbsp;
-            </Typography>
+            </Typography> */}
             <Typography
               variant="h2"
               sx={heroStyles.titleBlack(theme, isSmallScreen)}
-              fontFamily={'Comforter'}
+              fontFamily={"Comforter"}
               aria-label="Title in black"
             >
               {titleBlack}

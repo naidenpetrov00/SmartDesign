@@ -1,27 +1,25 @@
+import {
+  Accordion,
+  AccordionDetails,
+  AccordionSummary,
+  Box,
+  Stack,
+  Typography,
+  useMediaQuery,
+  useTheme,
+} from "@mui/material";
 import React, { useEffect, useRef, useState } from "react";
 
-import {
-  Box,
-  Accordion,
-  AccordionSummary,
-  Typography,
-  AccordionDetails,
-  useTheme,
-  useMediaQuery,
-  Stack,
-} from "@mui/material";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-
-import { Hero } from "../ui/Heros/Hero";
 import { AboutUsText } from "./AboutUsText";
-
-import { ourServicesStyles } from "./OurServices.styles";
-import { useTranslation } from "react-i18next";
-import { useTypesOfWork } from "../../hooks/useTypesOfWork";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { Hero } from "../ui/Heros/Hero";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-
+import { heroStyles } from "../ui/Heros/Hero.styles";
+import { ourServicesStyles } from "./OurServices.styles";
 import stelaPhoto from "../../assets/images/home/stela_photo.jpg";
 import stelaPhotoPlaceHolder from "../../assets/images/home/stela_photo_placeholder.jpg";
+import { useTranslation } from "react-i18next";
+import { useTypesOfWork } from "../../hooks/useTypesOfWork";
 
 export const OurServices = () => {
   const { t } = useTranslation();
@@ -63,13 +61,21 @@ export const OurServices = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [isSmallScreen]);
 
   return (
     <React.Fragment>
       <Box sx={ourServicesStyles.logoContainer}>
         <Stack direction={"column"} alignItems={"center"} spacing={-6}>
-          <Box ref={imageRef} sx={{ zIndex: -1 }}>
+          <Box ref={imageRef} sx={ourServicesStyles.imageAndTextContainer}>
+            <Typography
+              variant="h2"
+              sx={heroStyles.titleBlack(theme, isSmallScreen)}
+              fontFamily={"Comforter"}
+              aria-label="Title in black"
+            >
+              {t("titles.aboutUs.black").toString()}
+            </Typography>
             <LazyLoadImage
               title="Stela Photo"
               src={stelaPhoto}
@@ -86,7 +92,7 @@ export const OurServices = () => {
         </Stack>
       </Box>
       <Hero
-        titleWhite={t("titles.ourServices.white").toString()}
+        // titleWhite={t("titles.ourServices.white").toString()}
         titleBlack={t("titles.ourServices.black").toString()}
         divider={false}
         aria-labelledby="our-services-hero"

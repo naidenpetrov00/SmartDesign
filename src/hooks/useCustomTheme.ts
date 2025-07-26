@@ -24,7 +24,7 @@ export const useCustomTheme = (): Theme => {
         primary: { main: colorPallete.grey },
         secondary: { main: colorPallete.lightGrey },
         background: { paper: colorPallete.grey },
-        text: { primary: colorPallete.white, secondary: colorPallete.black },
+        text: { primary: "#ffff", secondary: colorPallete.black },
       },
     });
   }, []);

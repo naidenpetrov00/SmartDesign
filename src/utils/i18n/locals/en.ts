@@ -21,8 +21,9 @@ export const en = {
     building: "We start building your dream.",
   },
   titles: {
+    aboutUs: { white: "-", black: "About Me" },
     ourServices: { white: "Our", black: "Services" },
-    contactUs: { white: "Contact", black: "Us" },
+    contactUs: { white: "Contact", black: "Contact" },
     ourWork: { white: "Our Latest", black: "Projects" },
   },
   descriptions: {
@@ -60,7 +61,9 @@ functional layout, and visualizations to serve as a starting point for further d
 
 What the service includes:
   - Site visit and architectural surveying of the property for precise measurements and analysis.
-  - Zoning and alternative furniture layout options (up to 3 variants). Alternative design concepts – style, color palette, materials, and furniture (up to 2 variants). Detailed 3D model and photorealistic visualization of the final chosen variant.
+  - Zoning and alternative furniture layout options (up to 3 variants). 
+  - Alternative design concepts – style, color palette, materials, and furniture (up to 2 variants). 
+  - Detailed 3D model and photorealistic visualization of the final chosen variant.
 
 Price:
 Up to 60 sq.m: 40 BGN/sq.m.
@@ -77,8 +80,8 @@ For larger properties – negotiable individually.
 What the service includes:
 - Site visit and architectural surveying for precise measurements and analysis.
 - Zoning and alternative furniture layout options (2D drawings, up to 3 variants). 
-- Alternative design concepts – style, color palette, materials, and furniture (2 variants). 2D detailed drawings: wall elevations,
- floor plans, ceiling (soffit) plans, wall finishes, lighting, electrical outlets and switches, plumbing installations, and custom-made furniture.
+- Alternative design concepts – style, color palette, materials, and furniture (2 variants).
+- 2D detailed drawings: wall elevations, floor plans, ceiling (soffit) plans, wall finishes, lighting, electrical outlets and switches, plumbing installations, and custom-made furniture.
 - Detailed 3D model and photorealistic visualization of the final chosen concept. A list of specific furniture and items from the market recommended for purchase.
 
 Price:

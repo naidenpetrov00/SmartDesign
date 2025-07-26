@@ -1,5 +1,3 @@
-import { useTranslation } from "react-i18next";
-
 import {
   Box,
   Divider,
@@ -15,8 +13,8 @@ import {
 import CallIcon from "@mui/icons-material/Call";
 import EmailIcon from "@mui/icons-material/Email";
 import InstagramIcon from "@mui/icons-material/Instagram";
-
 import { contactsCardStyles } from "./ContactsCard.styles";
+import { useTranslation } from "react-i18next";
 
 export const ContactsCard = () => {
   const { t } = useTranslation();
@@ -50,7 +48,7 @@ export const ContactsCard = () => {
               }}
             >
               <Typography variant="body1" aria-labelledby="manager-name">
-                инж. Емануил Виденов – управител
+                Стела Попова
               </Typography>
 
               <Box
@@ -64,7 +62,7 @@ export const ContactsCard = () => {
                   rel="noopener noreferrer"
                   aria-label="Email инж. Емануил Виденов"
                 >
-                  e.videnov@smart-projects.bg
+                  stela.popova@gmail.com
                 </Link>
               </Box>
               <Box
@@ -78,53 +76,10 @@ export const ContactsCard = () => {
                   rel="noopener noreferrer"
                   aria-label="Call инж. Емануил Виденов"
                 >
-                  +359 883 393 977
+                  +359 89 824 8285
                 </Link>
               </Box>
               {isSmallScreen && <Divider color="white" />}
-            </Grid>
-            <Grid
-              size={{
-                xs: 12,
-                sm: 6,
-              }}
-              sx={{
-                display: "flex",
-                flexDirection: "column",
-                gap: 2,
-              }}
-            >
-              <Typography variant="body1" aria-labelledby="engineer-name">
-                инж. Сергей Кириленко – главен инженер
-              </Typography>
-              <Box
-                sx={contactsCardStyles.contactContainer}
-                aria-labelledby="email-contact"
-              >
-                <EmailIcon />
-                <Link
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="mailto:s.kyrylenko@smart-projects.bg"
-                  aria-label="Email инж. Сергей Кириленко"
-                >
-                  s.kyrylenko@smart-projects.bg
-                </Link>
-              </Box>
-              <Box
-                sx={contactsCardStyles.contactContainer}
-                aria-labelledby="phone-contact"
-              >
-                <CallIcon />
-                <Link
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="tel:+359886116536"
-                  aria-label="Call инж. Сергей Кириленко"
-                >
-                  +359 886 116 536
-                </Link>
-              </Box>
             </Grid>
           </Grid>
           <Divider color="white" />
@@ -139,7 +94,7 @@ export const ContactsCard = () => {
               rel="noopener noreferrer"
               aria-label="Follow SmartProjects on Instagram"
             >
-              @smartprojects
+              @instagram
             </Link>
           </Box>
         </Stack>

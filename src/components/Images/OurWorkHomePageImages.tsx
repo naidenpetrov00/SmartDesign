@@ -1,13 +1,10 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
-
-import { useTheme } from '@mui/material';
-
 import { Hero } from '../ui/Heros/Hero';
-import { OurWorkImages } from './Slider/OurWorkImages';
-
-import { paths } from '../../config/paths';
 import { LinkButton } from '../ui/Buttons/LinkButton/LinkButton';
+import { OurWorkImages } from './Slider/OurWorkImages';
+import React from 'react';
+import { paths } from '../../config/paths';
+import { useTheme } from '@mui/material';
+import { useTranslation } from 'react-i18next';
 
 export const OurWorkHomePageImages = () => {
   const theme = useTheme();
@@ -16,7 +13,7 @@ export const OurWorkHomePageImages = () => {
   return (
     <React.Fragment>
       <Hero
-        titleWhite={t('titles.ourWork.white').toString()}
+        // titleWhite={t('titles.ourWork.white').toString()}
         titleBlack={t('titles.ourWork.black').toString()}
         divider={false}
         aria-label={t('titles.ourWork.white')}

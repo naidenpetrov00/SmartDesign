@@ -1,10 +1,8 @@
-import { useTranslation } from 'react-i18next';
-
 import { Box } from '@mui/material';
-
+import { Helmet } from 'react-helmet-async';
 import { Hero } from '../../components/ui/Heros/Hero';
 import { OurWorkImages } from '../../components/Images/Slider/OurWorkImages';
-import { Helmet } from 'react-helmet-async';
+import { useTranslation } from 'react-i18next';
 
 export const OurWorkPage = () => {
   const { t } = useTranslation();
@@ -21,7 +19,7 @@ export const OurWorkPage = () => {
       </Helmet>
       <h1 style={{ display: 'none' }}>...............................</h1>
       <Hero
-        titleWhite={t('titles.ourWork.white').toString()}
+        // titleWhite={t('titles.ourWork.white').toString()}
         titleBlack={t('titles.ourWork.black').toString()}
         description={t('descriptions.ourWork').toString()}
         aria-labelledby="hero-description"

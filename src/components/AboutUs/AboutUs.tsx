@@ -1,13 +1,11 @@
-import { useTranslation } from "react-i18next";
-
-import { Box, useTheme, Divider } from "@mui/material";
+import { Box, Divider, useTheme } from "@mui/material";
 
 import { Hero } from "../ui/Heros/Hero";
-import { OurServices } from "./OurServices";
-
-import { paths } from "../../config/paths";
-import { aboutUsStyles } from "./AboutUs.styles";
 import { LinkButton } from "../ui/Buttons/LinkButton/LinkButton";
+import { OurServices } from "./OurServices";
+import { aboutUsStyles } from "./AboutUs.styles";
+import { paths } from "../../config/paths";
+import { useTranslation } from "react-i18next";
 
 const AboutUs = () => {
   const theme = useTheme();
@@ -19,7 +17,7 @@ const AboutUs = () => {
       <Divider sx={aboutUsStyles.divider} />
       <Box sx={aboutUsStyles.contactsContainer}>
         <Hero
-          titleWhite={t("titles.contactUs.white").toString()}
+          // titleWhite={t("titles.contactUs.white").toString()}
           titleBlack={t("titles.contactUs.black").toString()}
           description={t("descriptions.contactUs").toString()}
           divider={false}

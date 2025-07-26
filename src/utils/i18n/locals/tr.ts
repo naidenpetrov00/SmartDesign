@@ -20,9 +20,10 @@ export const tr = {
     building: "Hayalinizi inşa etmeye başlıyoruz.",
   },
   titles: {
+    aboutUs: { white: "-", black: "Hakkımda" },
     ourServices: { white: "Hizmet", black: "Paketler" },
-    contactUs: { white: "Bize", black: "Ulaşın" },
-    ourWork: { white: "Son", black: "Projelerimiz" },
+    contactUs: { white: "Bizimle", black: "İletişim" },
+    ourWork: { white: "Son", black: "Projeler" },
   },
   descriptions: {
     contactUs:
@@ -59,7 +60,9 @@ fonksiyonel yerleşim ve sonraki aşamalar için temel oluşturacak görselleşt
 
 Hizmet neleri içerir:
   - Doğru ölçüm ve analiz için yerinde keşif ve mimari ölçüm.
-  - Mobilyaların alanlara göre yerleşimi ve alternatif düzen önerileri (en fazla 3 seçenek). Alternatif tasarım konseptleri – stil, renk paleti, malzemeler ve mobilya önerileri (en fazla 2 seçenek). Seçilen nihai tasarımın detaylı 3D modeli ve fotogerçekçi görselleştirmesi.
+  - Mobilyaların alanlara göre yerleşimi ve alternatif düzen önerileri (en fazla 3 seçenek).
+  - Alternatif tasarım konseptleri – stil, renk paleti, malzemeler ve mobilya önerileri (en fazla 2 seçenek).
+  - Seçilen nihai tasarımın detaylı 3D modeli ve fotogerçekçi görselleştirmesi.
 
 Fiyat:
 60 m²’ye kadar: 40 BGN/m²
@@ -76,8 +79,8 @@ Daha büyük projeler için – bireysel anlaşmaya göre.
 Hizmet neleri içerir:
 - Doğru ölçüm ve analiz için yerinde keşif ve mimari ölçüm.
 - Mobilya yerleşimi için zonlama ve alternatif düzenler (2D çizimler, en fazla 3 seçenek).
-- Alternatif tasarım konseptleri – stil, renk paleti, malzeme ve mobilyalar (2 seçenek). 2D detaylı çizimler: duvar görünümleri,
- zemin planları, tavan (sofit) planları, duvar kaplamaları, aydınlatma, prizler ve anahtarlar, sıhhi tesisat, özel tasarım mobilyalar.
+- Alternatif tasarım konseptleri – stil, renk paleti, malzeme ve mobilyalar (2 seçenek).
+- 2D detaylı çizimler: duvar görünümleri, zemin planları, tavan (sofit) planları, duvar kaplamaları, aydınlatma, prizler ve anahtarlar, sıhhi tesisat, özel tasarım mobilyalar.
 - Seçilen son tasarım için detaylı 3D model ve fotogerçekçi görselleştirme. Satın almanız için önerilen mobilya ve ürün listesi.
 
 Fiyat:
