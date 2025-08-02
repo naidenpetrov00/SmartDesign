@@ -1,14 +1,12 @@
-import { useState } from "react";
+import { AppBar, Toolbar, useMediaQuery, useTheme } from "@mui/material";
 import { Link, useLocation } from "react-router-dom";
 
-import { AppBar, Toolbar, useMediaQuery, useTheme } from "@mui/material";
-
-import { NavigationButtons } from "./Buttons/NavigationButtons";
 import { DrawerNavigationButtons } from "./Buttons/DrawerNavigationButtons/DrawerNavigationButtons";
-
-import { paths } from "../../config/paths";
+import { NavigationButtons } from "./Buttons/NavigationButtons";
 import SvgIcon from "../../assets/images/logo/SvgIcon";
 import { SvgIconColor } from "../../types/enums";
+import { paths } from "../../config/paths";
+import { useState } from "react";
 
 export const Header = () => {
   const { pathname } = useLocation();
@@ -36,7 +34,7 @@ export const Header = () => {
           <SvgIcon
             width="80"
             color={SvgIconColor.white}
-            aria-label="SmartProjects logo"
+            aria-label="SmartDesign logo"
           />
         </Link>
         {underMediumScreen ? (

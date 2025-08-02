@@ -51,7 +51,7 @@ export const bg = {
   navBar: {
     homeNavBarLink: "НАЧАЛО",
     contactsNavBarLink: "КОНТАКТИ",
-    ourWorkNavBarLink: "НАШИТЕ ПРОЕКТИ",
+    ourWorkNavBarLink: "Проекти",
   },
   buttons: {
     contacts: "КОНТАКТИ",

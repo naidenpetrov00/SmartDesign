@@ -39,7 +39,7 @@ export const en = {
   navBar: {
     homeNavBarLink: "HOME",
     contactsNavBarLink: "CONTACTS",
-    ourWorkNavBarLink: "OUR WORK",
+    ourWorkNavBarLink: "Projects",
   },
   buttons: {
     contacts: "CONTACTS",

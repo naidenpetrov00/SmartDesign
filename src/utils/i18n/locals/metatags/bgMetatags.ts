@@ -3,7 +3,7 @@ export const bgMetatags = {
     homePage: {
       description:
         'SmartProjects предлага експертни строителни и вътрешни довършителни услуги. Разгледайте нашите решения за ремонти и обновления с прецизност и качество.',
-      title: 'SmartProjects',
+      title: 'Стела Попова',
     },
     contactsPage: {
       description:
@@ -13,7 +13,7 @@ export const bgMetatags = {
     ourWorksPage: {
       description:
         'Открийте изключителните проекти, завършени от SmartProjects. Вижте нашето портфолио, което демонстрира експертиза в строителството и вътрешното довършване.',
-      title: 'Нашата Работа',
+      title: 'Проекти',
     },
   },
 };

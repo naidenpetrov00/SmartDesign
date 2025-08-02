@@ -9,9 +9,9 @@ export const Copyright = () => {
           href="https://mui.com/"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="SmartProjects official website"
+          aria-label="SmartDesign official website"
         >
-          SmartProjects
+          SmartDesign
         </Link>
         &nbsp;
         {new Date().getFullYear()}

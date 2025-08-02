@@ -37,7 +37,7 @@ export const uk = {
   navBar: {
     homeNavBarLink: "ГОЛОВНА",
     contactsNavBarLink: "КОНТАКТИ",
-    ourWorkNavBarLink: "НАШІ РОБОТИ",
+    ourWorkNavBarLink: "Проєкти",
   },
   buttons: {
     contacts: "КОНТАКТИ",

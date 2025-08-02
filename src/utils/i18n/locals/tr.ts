@@ -38,7 +38,7 @@ export const tr = {
   navBar: {
     homeNavBarLink: "ANASAYFA",
     contactsNavBarLink: "İLETİŞİM",
-    ourWorkNavBarLink: "İŞLERİMİZ",
+    ourWorkNavBarLink: "Projeler",
   },
   buttons: {
     contacts: "İLETİŞİM",

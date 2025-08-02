@@ -37,7 +37,7 @@ export const ru = {
   navBar: {
     homeNavBarLink: "ГЛАВНАЯ",
     contactsNavBarLink: "КОНТАКТЫ",
-    ourWorkNavBarLink: "НАШИ РАБОТЫ",
+    ourWorkNavBarLink: "Проекты",
   },
   buttons: {
     contacts: "КОНТАКТЫ",
