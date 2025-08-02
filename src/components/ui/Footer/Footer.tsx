@@ -1,22 +1,19 @@
-import Box from "@mui/material/Box";
-import { Grid, Link } from "@mui/material";
-import Stack from "@mui/material/Stack";
-import Container from "@mui/material/Container";
-import IconButton from "@mui/material/IconButton";
-import CallIcon from "@mui/icons-material/Call";
-import EmailIcon from "@mui/icons-material/Email";
-import Typography from "@mui/material/Typography";
-
-import { Copyright } from "../Copyright";
-import { socialLinks } from "../../../config/socialLinks";
-import { footerStyles } from "./Footer.styles";
 import { useMediaQuery, useTheme } from "@mui/material";
+
+import Box from "@mui/material/Box";
+import Contacts from "../Card/Contacts";
+import Container from "@mui/material/Container";
+import { Copyright } from "../Copyright";
+import IconButton from "@mui/material/IconButton";
 import { LinkButtonUnderline } from "../Buttons/LinkButton/LinkButtonUnderline";
+import Stack from "@mui/material/Stack";
 import SvgIcon from "../../../assets/images/logo/SvgIcon";
+import { SvgIconColor } from "../../../types/enums";
+import Typography from "@mui/material/Typography";
+import { footerStyles } from "./Footer.styles";
+import { socialLinks } from "../../../config/socialLinks";
 import { usePaths } from "../../../hooks/usePaths";
 import { useTranslation } from "react-i18next";
-import { contactsCardStyles } from "../Card/ContactsCard.styles";
-import { SvgIconColor } from "../../../types/enums";
 
 export const Footer = () => {
   const theme = useTheme();
@@ -41,69 +38,7 @@ export const Footer = () => {
               <Typography variant="body2" sx={{ mb: 2 }}>
                 {t("footer.reachOut")}
               </Typography>
-              <Grid container spacing={2}>
-                {/* Left side */}
-                <Grid
-                  size={{ xs: 12, sm: 6 }}
-                  sx={{ display: "flex", flexDirection: "column", gap: 2 }}
-                >
-                  <Typography variant="body2">
-                    инж. Емануил Виденов – управител
-                  </Typography>
-                  <Box sx={contactsCardStyles.contactContainer}>
-                    <EmailIcon />
-                    <Link
-                      href="mailto:e.videnov@smart-projects.bg"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="Email Emanuil Videnov"
-                    >
-                      e.videnov@smart-projects.bg
-                    </Link>
-                  </Box>
-                  <Box sx={contactsCardStyles.contactContainer}>
-                    <CallIcon />
-                    <Link
-                      href="tel:+359883393977"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="Call Emanuil Videnov"
-                    >
-                      +359 883 393 977
-                    </Link>
-                  </Box>
-                </Grid>
-                <Grid
-                  size={{ xs: 12, sm: 6 }}
-                  sx={{ display: "flex", flexDirection: "column", gap: 2 }}
-                >
-                  <Typography variant="body2">
-                    инж. Сергей Кириленко – главен инженер
-                  </Typography>
-                  <Box sx={contactsCardStyles.contactContainer}>
-                    <EmailIcon />
-                    <Link
-                      href="mailto:s.kyrylenko@smart-projects.bg"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="Email Sergey Kyrylenko"
-                    >
-                      s.kyrylenko@smart-projects.bg
-                    </Link>
-                  </Box>
-                  <Box sx={contactsCardStyles.contactContainer}>
-                    <CallIcon />
-                    <Link
-                      href="tel:+359886116536"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="Call Sergey Kyrylenko"
-                    >
-                      +359 886 116 536
-                    </Link>
-                  </Box>
-                </Grid>
-              </Grid>
+              <Contacts />
             </Box>
           </Box>
           <Box sx={footerStyles.navigation}>
