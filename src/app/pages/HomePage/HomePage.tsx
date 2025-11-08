@@ -1,18 +1,15 @@
-import { Helmet } from "react-helmet-async";
-import { useTranslation } from "react-i18next";
-import { LazyLoadImage } from "react-lazy-load-image-component";
-
 import { Box, Stack } from "@mui/material";
 
 import AboutUs from "../../../components/AboutUs/AboutUs";
-import { PhraseRotator } from "../../../components/ui/Text/PhraseRotator";
+import { Helmet } from "react-helmet-async";
 import { LanguageSelector } from "../../../components/ui/Buttons/LanguageSelector";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import { OurWorkHomePageImages } from "../../../components/Images/OurWorkHomePageImages";
-
-import homePhoto from "../../../assets/images/home/home2.png";
-import homePhotoPlaceHolder from "../../../assets/images/home/home2-transformed.png";
-
+import { PhraseRotator } from "../../../components/ui/Text/PhraseRotator";
 import { homePageStyles } from "./HomePage.styles";
+import homePhoto from "../../../assets/images/home/home3.jpeg";
+import homePhotoPlaceHolder from "../../../assets/images/home/home3-small.jpeg";
+import { useTranslation } from "react-i18next";
 
 export const HomePage = () => {
   const { t } = useTranslation();

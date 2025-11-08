@@ -1,6 +1,6 @@
+import { useMemo } from "react";
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { useTranslation } from "react-i18next";
-import { useMemo } from "react";
 
 export interface Place {
   getImages: () => string[];
@@ -18,65 +18,41 @@ export const usePlaces = () => {
 
   const data: PlacesFolder = useMemo(
     () => ({
-      NedelchoApart: {
+      Adept: {
         getImages: () => {
           const imagesModules = import.meta.glob(
-            "../assets/images/places/NedelchoApart/*.{png,jpg,jpeg,svg,webp}",
+            "../assets/images/places/Adept/*.{png,jpg,jpeg,svg,webp}",
             { eager: true }
           );
           return Object.values(imagesModules).map((mod: any) => mod.default);
         },
-        title: t("places.NedelchoApart.title"),
-        subtitle: t("places.NedelchoApart.subtitle"),
-        description: t("places.NedelchoApart.description"),
+        title: t("places.Adept.title"),
+        subtitle: t("places.Adept.subtitle"),
+        description: t("places.Adept.description"),
       },
-      Gard: {
+      MeetingThePageHalfway: {
         getImages: () => {
           const imagesModules = import.meta.glob(
-            "../assets/images/places/Gard/*.{png,jpg,jpeg,svg,webp}",
+            "../assets/images/places/MeetingThePageHalfway/*.{png,jpg,jpeg,svg,webp}",
             { eager: true }
           );
           return Object.values(imagesModules).map((mod: any) => mod.default);
         },
-        title: t("places.Gard.title"),
-        subtitle: t("places.Gard.subtitle"),
-        description: t("places.Gard.description"),
+        title: t("places.MeetingThePageHalfway.title"),
+        subtitle: t("places.MeetingThePageHalfway.subtitle"),
+        description: t("places.MeetingThePageHalfway.description"),
       },
-      Gost: {
+      UrbanNest: {
         getImages: () => {
           const imagesModules = import.meta.glob(
-            "../assets/images/places/Gost/*.{png,jpg,jpeg,svg,webp}",
+            "../assets/images/places/UrbanNest/*.{png,jpg,jpeg,svg,webp}",
             { eager: true }
           );
           return Object.values(imagesModules).map((mod: any) => mod.default);
         },
-        title: t("places.Gost.title"),
-        subtitle: t("places.Gost.subtitle"),
-        description: t("places.Gost.description"),
-      },
-      Gostinyata: {
-        getImages: () => {
-          const imagesModules = import.meta.glob(
-            "../assets/images/places/Gostinyata/*.{png,jpg,jpeg,svg,webp}",
-            { eager: true }
-          );
-          return Object.values(imagesModules).map((mod: any) => mod.default);
-        },
-        title: t("places.Gostinyata.title"),
-        subtitle: t("places.Gostinyata.subtitle"),
-        description: t("places.Gostinyata.description"),
-      },
-      Spa: {
-        getImages: () => {
-          const imagesModules = import.meta.glob(
-            "../assets/images/places/Spa/*.{png,jpg,jpeg,svg,webp}",
-            { eager: true }
-          );
-          return Object.values(imagesModules).map((mod: any) => mod.default);
-        },
-        title: t("places.Spa.title"),
-        subtitle: t("places.Spa.subtitle"),
-        description: t("places.Spa.description"),
+        title: t("places.UrbanNest.title"),
+        subtitle: t("places.UrbanNest.subtitle"),
+        description: t("places.UrbanNest.description"),
       },
     }),
     // eslint-disable-next-line react-hooks/exhaustive-deps
