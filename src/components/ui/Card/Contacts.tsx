@@ -39,12 +39,12 @@ const Contacts = () => {
         >
           <EmailIcon />
           <Link
-            href="mailto:e.videnov@smart-projects.bg"
+            href="mailto:contact@stelapopova.com"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Email инж. Емануил Виденов"
           >
-            stela.popova@gmail.com
+            contact@stelapopova.com
           </Link>
         </Box>
         <Box
@@ -53,7 +53,7 @@ const Contacts = () => {
         >
           <CallIcon />
           <Link
-            href="tel:+359883393977"
+            href="tel:+359898248285"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Call инж. Емануил Виденов"
