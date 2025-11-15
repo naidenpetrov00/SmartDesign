@@ -4,14 +4,11 @@ import Box from "@mui/material/Box";
 import Contacts from "../Card/Contacts";
 import Container from "@mui/material/Container";
 import { Copyright } from "../Copyright";
-import IconButton from "@mui/material/IconButton";
 import { LinkButtonUnderline } from "../Buttons/LinkButton/LinkButtonUnderline";
-import Stack from "@mui/material/Stack";
 import SvgIcon from "../../../assets/images/logo/SvgIcon";
 import { SvgIconColor } from "../../../types/enums";
 import Typography from "@mui/material/Typography";
 import { footerStyles } from "./Footer.styles";
-import { socialLinks } from "../../../config/socialLinks";
 import { usePaths } from "../../../hooks/usePaths";
 import { useTranslation } from "react-i18next";
 
