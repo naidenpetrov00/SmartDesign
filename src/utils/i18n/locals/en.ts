@@ -27,15 +27,24 @@ export const en = {
     ourWork: { white: "Our Latest", black: "Projects" },
   },
   descriptions: {
+    ourServices: `For your convenience, I offer two package options – Concept Light and Concept Detail.
+
+They cover different stages of the process – from zoning and visualization to a complete working project with drawings and specific furnishing proposals.
+
+If your project requires a different scope of service, feel free to contact me so we can discuss a more flexible collaboration option.`,
+
     contactUs:
       "Every space holds potential. If you're looking for style, functionality, and individuality – let's achieve it together. Contact me and start the transformation today.",
     ourWork:
       'Explore our latest projects. At "Smart Projects," we take pride in delivering high-quality apartment renovations. Our experience ranges from minor repairs to complete transformations tailored to each client’s unique needs.',
   },
-  aboutUsText: `My career path hasn’t followed a straight trajectory. I spent 10 years in Germany, where I completed my higher education at the Technical University of Berlin with a degree in "Infrastructure Politics and Management". I am fluent in German and English, both written and spoken.
-  \nAfter returning to Bulgaria, I faced the challenge of finding my place in a job market dominated by the outsourcing industry. I gained valuable experience in human resources at shared service centers, where my main focus was transferring and implementing work processes, as well as building sustainable know-how.
-  \nOver time, the corporate world began to bring me more negatives than satisfaction, which motivated me to switch to interior design. I completed a licensed training and obtained a professional qualification in this field, and today I mainly specialize in residential interior design.
-  \nThe process of developing a design concept is often like solving a complex mathematical equation — combining sometimes conflicting requirements: real needs, functionality, individuality, aesthetics, budget, and deadlines. My mission is to find the optimal balance between them and create spaces that not only look beautiful but also work in harmony with the lives of their inhabitants.`,
+  aboutUsText: `Hello, my name is Stela Popova, and I work in the field of interior design. 
+  After many years in the corporate environment, I discovered that my true strengths lie in spatial thinking and in the ability to transform ideas into real, functional solutions.
+
+I completed specialized training in interior design, and since then I have been working on projects that combine aesthetics, functionality, and a personal touch.
+
+For me, creating an interior is like solving a complex equation — it requires balancing various factors: needs, space, budget, deadlines, and a sense of style.
+ My role is to find harmony between all of them and turn the idea into a space that looks beautiful and works seamlessly with the lives of its occupants.`,
   navBar: {
     homeNavBarLink: "HOME",
     contactsNavBarLink: "CONTACTS",
@@ -56,38 +65,34 @@ export const en = {
     conceptLight: {
       title: "Concept Light",
       details: [
-        `This package is suitable for clients looking for a professional foundation for their interior project – a clear concept,
-functional layout, and visualizations to serve as a starting point for further development.
+        `This package is suitable for you if you are looking for a professional foundation for your interior project — a clear concept, functional layout, and visualization that can serve as a starting point for further development.
 
 What the service includes:
-  - Site visit and architectural surveying of the property for precise measurements and analysis.
-  - Zoning and alternative furniture layout options (up to 3 variants). 
-  - Alternative design concepts – style, color palette, materials, and furniture (up to 2 variants). 
-  - Detailed 3D model and photorealistic visualization of the final chosen variant.
+-Zoning and alternative functional layouts (up to 3 options) based on drawings and measurements provided by the client
+-Basic guidance on style, materials, and color palette
+-A detailed 3D model and photorealistic visualization of the final selected option
 
 Price:
-Up to 60 sq.m: 40 BGN/sq.m.
-
-For larger properties – negotiable individually.
-`,
+Up to 60 m²: €20/m² (40 BGN/m²)
+For larger spaces – price upon individual agreement.`,
       ],
     },
     conceptDetail: {
       title: "Concept Detail",
       details: [
-        `This package is suitable for you if you need a more detailed interior design project with full technical documentation and clear execution guidelines.
+        `This package is suitable for you if you need a more detailed interior design project with full technical documentation and clear instructions for execution.
 
 What the service includes:
-- Site visit and architectural surveying for precise measurements and analysis.
-- Zoning and alternative furniture layout options (2D drawings, up to 3 variants). 
-- Alternative design concepts – style, color palette, materials, and furniture (2 variants).
-- 2D detailed drawings: wall elevations, floor plans, ceiling (soffit) plans, wall finishes, lighting, electrical outlets and switches, plumbing installations, and custom-made furniture.
-- Detailed 3D model and photorealistic visualization of the final chosen concept. A list of specific furniture and items from the market recommended for purchase.
+-On-site visit and architectural measurements for accurate dimensions
+-Zoning and 2D functional layouts (up to 3 options)
+-Alternative design concepts – style, colors, materials, and furniture (up to 2 options)
+-Detailed 2D drawings of the selected option: flooring plan, ceilings, lighting, electrical sockets and switches, plumbing, wall elevations, and custom-made furniture
+-Detailed 3D model and photorealistic visualizations
+-A list of specific furniture and items recommended for purchase
 
 Price:
-Up to 60 sq.m: 50 BGN/sq.m
-
-For larger spaces – individually negotiated.
+Up to 60 m²: €40/m² (80 BGN/m²)
+For larger spaces – price upon individual agreement.
 `,
       ],
     },

@@ -21,7 +21,7 @@ export const OurWorkPage = () => {
       <Hero
         // titleWhite={t('titles.ourWork.white').toString()}
         titleBlack={t('titles.ourWork.black').toString()}
-        description={t('descriptions.ourWork').toString()}
+        // description={t('descriptions.ourWork').toString()}
         aria-labelledby="hero-description"
       />
       <OurWorkImages />

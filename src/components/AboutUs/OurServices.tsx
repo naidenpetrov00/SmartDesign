@@ -94,6 +94,7 @@ export const OurServices = () => {
       <Hero
         // titleWhite={t("titles.ourServices.white").toString()}
         titleBlack={t("titles.ourServices.black").toString()}
+        description={t("descriptions.ourServices").toString()}
         divider={false}
         aria-labelledby="our-services-hero"
       />

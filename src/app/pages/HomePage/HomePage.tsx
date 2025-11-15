@@ -7,8 +7,8 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import { OurWorkHomePageImages } from "../../../components/Images/OurWorkHomePageImages";
 import { PhraseRotator } from "../../../components/ui/Text/PhraseRotator";
 import { homePageStyles } from "./HomePage.styles";
-import homePhoto from "../../../assets/images/home/home3.jpeg";
-import homePhotoPlaceHolder from "../../../assets/images/home/home3-small.jpeg";
+import homePhoto from "../../../assets/images/home/home4.jpeg";
+import homePhotoPlaceHolder from "../../../assets/images/home/home4-small.jpeg";
 import { useTranslation } from "react-i18next";
 
 export const HomePage = () => {

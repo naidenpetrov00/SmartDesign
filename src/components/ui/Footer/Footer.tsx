@@ -28,16 +28,16 @@ export const Footer = () => {
           <Box sx={footerStyles.boxContent}>
             <Box sx={{ width: { xs: "100%", sm: "60%" } }}>
               <SvgIcon width="160" color={SvgIconColor.white} />
-              <Typography
+              {/* <Typography
                 variant="body2"
                 gutterBottom
                 sx={{ fontWeight: 600, mt: 3 }}
               >
                 {t("footer.contactUs")}
-              </Typography>
-              <Typography variant="body2" sx={{ mb: 2 }}>
+              </Typography> */}
+              {/* <Typography variant="body2" sx={{ mb: 2 }}>
                 {t("footer.reachOut")}
-              </Typography>
+              </Typography> */}
               <Contacts />
             </Box>
           </Box>
@@ -74,7 +74,7 @@ export const Footer = () => {
           <div>
             <Copyright />
           </div>
-          <Stack
+          {/* <Stack
             direction="row"
             spacing={1}
             useFlexGap
@@ -93,7 +93,7 @@ export const Footer = () => {
                 {icon}
               </IconButton>
             ))}
-          </Stack>
+          </Stack> */}
         </Box>
       </Container>
     </Box>

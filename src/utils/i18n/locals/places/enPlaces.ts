@@ -1,44 +1,19 @@
 export const enPlaces = {
   places: {
     Adept: {
-      title: 'Studio "A D E P T"',
-      subtitle: "Concept Design",
-      description: `Renovation and rebranding of a small artistic studio for handmade bags and jewelry in the heart of Sofia. The concept combines an industrial style with warm and cozy elements that invite visitors to feel comfortable and inspired. The 14 sq.m space allows for on-site production of bags and jewelry, as well as individual workshops where clients can create their own accessories.
-      
-      The functional work area provides convenience for creating bags and jewelry. The central worktop and additional shelves ensure efficient organization of materials.
-      
-      The presentation area combines light surfaces and contrasting brick walls. Clean lines and an orderly display emphasize the artistic character of the products.
-      `,
+      title: 'Studio "Adept"',
+      description: `CONCEPT DESIGN FOR THE RENOVATION AND REBRANDING OF A SMALL ARTISTIC STUDIO FOR HANDMADE BAGS AND JEWELRY IN THE HEART OF SOFIA. THE CONCEPT COMBINES WARM AND COZY ELEMENTS THAT INVITE VISITORS TO FEEL COMFORTABLE AND INSPIRED.`,
     },
     MeetingThePageHalfway: {
       title: 'Cafe-Bookstore "Meeting the Page halfway"',
       subtitle: "Concept Design",
-      description: `"Meeting the Page Halfway" is a conceptual design for a café-bookstore whose mission is to inspire a love for books. The project involves creating a cozy space that allows for immersion in books with a cup of tea and a light snack, as well as functionality for events, reading clubs, and children's workshops.
-      
-      The design combines modern urban style with functional and adaptable solutions. The modular soft furniture with magnetic connection by Blå Station AB allows quick changes in seating configurations. Sliding interior glass doors by Italian brand Glas Italia provide flexibility in creating small event zones. Compact bookshelves and a color palette inspired by nature add balance and harmony.
-      
-      The bookstore façade creates visual contact with the street, inviting passersby to discover the interior. Displayed books and accent details turn the window into a living invitation to literature lovers.
-      
-      Cozy reading corners with armchairs and low tables offer an intimate setting for reading or conversations.
+      description: `“MEETING THE PAGE HALFWAY” is the conceptual design project for a café–bookstore whose mission is to inspire a love for books. The brief includes creating a space with a cozy atmosphere, allowing visitors to “immerse” themselves in reading while enjoying a cup of tea and a light snack, as well as ensuring functionality suitable for hosting events, book club meetings, and children's workshops.
 
-      The space can host literary readings, book launches, and club meetings. The flexible furniture layout and sliding glass doors allow easy adaptation to different formats – from children's workshops to discussion panels.
-
-      The bar area offers a variety of hot and cold drinks and light snacks, creating a balance between taste and culture. It is the heart of communication, where aromatic drinks accompany captivating stories.
-      `,
+The design concept blends a modern urban style with functional and adaptable solutions. The modular soft seating with magnetic connectors by BLÅ Station AB allows quick changes to the seating configuration. The sliding interior doors made of colored glass by the Italian manufacturer GLAS ITALIA enable easy separation of small event areas. Compact book displays and a carefully selected nature-inspired color palette complete the atmosphere and create a sense of balance and harmony.`,
     },
     UrbanNest: {
-      title: '"Urban Nest" / Layout',
-      subtitle: "Concept Design",
-      description: `An investment residential project of 44 sq.m, located in Sofia. Urban Nest is conceived as a small urban retreat – functional, modern, and cozy. The concept combines industrial style with warm natural materials and colors to create a sense of home.
-
-      In the open living area, industrial metal accents blend with warm wood and colorful textiles. Tall shelves add vertical depth and serve as an architectural accent uniting the dining and relaxation zones. The space feels lively and balanced – suitable both for rest and for social moments.
-
-      The kitchen is compact but highly functional. Panels of natural veneer bring warmth, while the black countertop and graphic backsplash add contrast and depth. Every detail is designed for daily comfort and clean aesthetics.
-
-      The bedroom follows the concept of balanced coziness. The metal bed frame and white brick walls continue the industrial theme, while green and terracotta textiles bring freshness and warmth. The space radiates calmness and a sense of completeness.
-
-      In the bathroom, the industrial spirit is softened by a natural color palette and textural play. Terrazzo and terracotta accents add character and comfort, while soft lighting and a round mirror complete the atmosphere of harmony and peace.
-      `,
+      title: '"Urban Nest"',
+      description: `A RESIDENTIAL INVESTMENT PROJECT WITH AN AREA OF 44 SQ.M, LOCATED IN SOFIA. URBAN NEST IS DESIGNED AS A SMALL URBAN RETREAT – FUNCTIONAL, MODERN, AND COZY. THE CONCEPT COMBINES WARM NATURAL MATERIALS AND COLORS THAT CREATE A TRUE SENSE OF HOME.`,
     },
   },
 };
