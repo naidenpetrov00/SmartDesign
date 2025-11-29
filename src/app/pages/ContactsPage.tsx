@@ -22,7 +22,7 @@ export const ContactsPage = () => {
       <Hero
         // titleWhite={t('titles.contactUs.white').toString()}
         titleBlack={t('titles.contactUs.black').toString()}
-        description={t('descriptions.contactUs').toString()}
+        // description={t('descriptions.contactUs').toString()}
       />
       <Timeline />
       <ContactsCard />

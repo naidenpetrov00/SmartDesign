@@ -11,10 +11,12 @@ import {
 import CallIcon from "@mui/icons-material/Call";
 import EmailIcon from "@mui/icons-material/Email";
 import { contactsCardStyles } from "./ContactsCard.styles";
+import { useTranslation } from "react-i18next";
 
 const Contacts = () => {
   const theme = useTheme();
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
+  const { t } = useTranslation();
 
   return (
     <Grid container spacing={2}>
@@ -30,7 +32,7 @@ const Contacts = () => {
         }}
       >
         <Typography variant="body1" aria-labelledby="manager-name">
-          Стела Попова
+          {t('common.name')}
         </Typography>
 
         <Box

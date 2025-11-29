@@ -2,6 +2,7 @@ export const en = {
   common: {
     email: "Email",
     phone: "Phone",
+    name: "Stela Popova"
   },
   phrases: {
     apartmentRenovations:
@@ -38,17 +39,17 @@ If your project requires a different scope of service, feel free to contact me s
     ourWork:
       'Explore our latest projects. At "Smart Projects," we take pride in delivering high-quality apartment renovations. Our experience ranges from minor repairs to complete transformations tailored to each client’s unique needs.',
   },
-  aboutUsText: `Hello, my name is Stela Popova, and I work in the field of interior design. 
-  After many years in the corporate environment, I discovered that my true strengths lie in spatial thinking and in the ability to transform ideas into real, functional solutions.
+  aboutUsText: `Hello, my name is Stela Popova and I specialize in interior design.
 
-I completed specialized training in interior design, and since then I have been working on projects that combine aesthetics, functionality, and a personal touch.
+After many years of professional experience in the corporate world, I felt the need for a personal transformation.
+After successfully completing specialized training in interior design, I dedicated myself to projects that combine aesthetics, function, and a clearly defined individual style.
 
-For me, creating an interior is like solving a complex equation — it requires balancing various factors: needs, space, budget, deadlines, and a sense of style.
- My role is to find harmony between all of them and turn the idea into a space that looks beautiful and works seamlessly with the lives of its occupants.`,
+The process of developing a design concept is often like solving a mathematical equation composed of real needs, functionality, aesthetics, budget, and deadlines.
+My role is to find the optimal balance between all these variables and create spaces that not only look beautiful but also work in complete harmony with the lives of their inhabitants.`,
   navBar: {
     homeNavBarLink: "HOME",
     contactsNavBarLink: "CONTACTS",
-    ourWorkNavBarLink: "Projects",
+    ourWorkNavBarLink: "PROJECTS",
   },
   buttons: {
     contacts: "CONTACTS",

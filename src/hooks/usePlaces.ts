@@ -18,6 +18,18 @@ export const usePlaces = () => {
 
   const data: PlacesFolder = useMemo(
     () => ({
+      UrbanNest: {
+        getImages: () => {
+          const imagesModules = import.meta.glob(
+            "../assets/images/places/UrbanNest/*.{png,jpg,jpeg,svg,webp}",
+            { eager: true }
+          );
+          return Object.values(imagesModules).map((mod: any) => mod.default);
+        },
+        title: t("places.UrbanNest.title"),
+        subtitle: t("places.UrbanNest.subtitle"),
+        description: t("places.UrbanNest.description"),
+      },
       Adept: {
         getImages: () => {
           const imagesModules = import.meta.glob(
@@ -41,18 +53,6 @@ export const usePlaces = () => {
         title: t("places.MeetingThePageHalfway.title"),
         subtitle: t("places.MeetingThePageHalfway.subtitle"),
         description: t("places.MeetingThePageHalfway.description"),
-      },
-      UrbanNest: {
-        getImages: () => {
-          const imagesModules = import.meta.glob(
-            "../assets/images/places/UrbanNest/*.{png,jpg,jpeg,svg,webp}",
-            { eager: true }
-          );
-          return Object.values(imagesModules).map((mod: any) => mod.default);
-        },
-        title: t("places.UrbanNest.title"),
-        subtitle: t("places.UrbanNest.subtitle"),
-        description: t("places.UrbanNest.description"),
       },
     }),
     // eslint-disable-next-line react-hooks/exhaustive-deps

@@ -2,6 +2,7 @@ export const enPlaces = {
   places: {
     Adept: {
       title: 'Studio "Adept"',
+      subtitle: "Идеен проект",
       description: `CONCEPT DESIGN FOR THE RENOVATION AND REBRANDING OF A SMALL ARTISTIC STUDIO FOR HANDMADE BAGS AND JEWELRY IN THE HEART OF SOFIA. THE CONCEPT COMBINES WARM AND COZY ELEMENTS THAT INVITE VISITORS TO FEEL COMFORTABLE AND INSPIRED.`,
     },
     MeetingThePageHalfway: {
@@ -13,6 +14,7 @@ The design concept blends a modern urban style with functional and adaptable sol
     },
     UrbanNest: {
       title: '"Urban Nest"',
+      subtitle: "Идеен проект",
       description: `A RESIDENTIAL INVESTMENT PROJECT WITH AN AREA OF 44 SQ.M, LOCATED IN SOFIA. URBAN NEST IS DESIGNED AS A SMALL URBAN RETREAT – FUNCTIONAL, MODERN, AND COZY. THE CONCEPT COMBINES WARM NATURAL MATERIALS AND COLORS THAT CREATE A TRUE SENSE OF HOME.`,
     },
   },

@@ -1,7 +1,7 @@
-import { Box, Divider, Link, Paper, Stack, Typography } from "@mui/material";
+import { Box, Paper, Stack, Typography } from "@mui/material";
 
 import Contacts from "./Contacts";
-import InstagramIcon from "@mui/icons-material/Instagram";
+// import InstagramIcon from "@mui/icons-material/Instagram";
 import { contactsCardStyles } from "./ContactsCard.styles";
 import { useTranslation } from "react-i18next";
 
@@ -23,8 +23,8 @@ export const ContactsCard = () => {
         </Typography>
         <Stack gap={2} sx={contactsCardStyles.stack}>
           <Contacts />
-          <Divider color="white" />
-          <Box
+          {/* <Divider color="white" /> */}
+          {/* <Box
             sx={contactsCardStyles.contactContainer}
             aria-labelledby="social-media-contact"
           >
@@ -37,7 +37,7 @@ export const ContactsCard = () => {
             >
               @instagram
             </Link>
-          </Box>
+          </Box> */}
         </Stack>
       </Paper>
     </Box>

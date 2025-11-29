@@ -106,7 +106,7 @@ export const OurServices = () => {
         {Object.entries(typesOfWork).map((work, index) => (
           <Accordion
             key={work[1].title}
-            defaultExpanded={index === 0}
+            defaultExpanded={true}
             sx={ourServicesStyles.accordion(theme)}
             aria-labelledby={`accordion-${index}`}
           >
