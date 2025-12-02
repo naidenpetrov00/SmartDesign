@@ -1,9 +1,8 @@
-import { ContactsCard } from '../../components/ui/Card/ContactsCard';
-import { Helmet } from 'react-helmet-async';
-import { Hero } from '../../components/ui/Heros/Hero';
-import React from 'react';
-import Timeline from '../../components/ui/Timeline/Timeline';
-import { useTranslation } from 'react-i18next';
+import { ContactsCard } from "../../components/ui/Card/ContactsCard";
+import { Helmet } from "react-helmet-async";
+import { Hero } from "../../components/ui/Heros/Hero";
+import React from "react";
+import { useTranslation } from "react-i18next";
 
 export const ContactsPage = () => {
   const { t } = useTranslation();
@@ -11,20 +10,20 @@ export const ContactsPage = () => {
   return (
     <React.Fragment>
       <Helmet>
-        <title>{t('metatags.contactsPage.title')}</title>
+        <title>{t("metatags.contactsPage.title")}</title>
         <meta
           name="description"
-          content={t('metatags.contactsPage.description')!}
+          content={t("metatags.contactsPage.description")!}
         />
         <link rel="canonical" href="https://smart-projects.bg/contacts" />
       </Helmet>
-      <h1 style={{ display: 'none' }}>...............................</h1>
+      <h1 style={{ display: "none" }}>...............................</h1>
       <Hero
         // titleWhite={t('titles.contactUs.white').toString()}
-        titleBlack={t('titles.contactUs.black').toString()}
+        titleBlack={t("titles.contactUs.black").toString()}
         // description={t('descriptions.contactUs').toString()}
       />
-      <Timeline />
+      {/* <Timeline /> */}
       <ContactsCard />
     </React.Fragment>
   );
